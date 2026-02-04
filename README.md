@@ -19,6 +19,18 @@ The epistemology of AI guardrails were explored through the lens of Human Rights
 * Interpretation: High scores reflect equitable outcomes; low scores suggest systemic biases.
 * The 80% Rule: Many models use the "4/5ths" or "80%" rule (disparate impact) to compare the positive outcome rates of different groups
 
+# Primary Fairness Metrics
+* Demographic Parity: Ensures that the probability of a positive outcome is the same across all groups, regardless of the actual distribution of qualifications.
+* Equalized Odds: Requires that the true positive and false positive rates are equal across groups, ensuring the model performs with similar accuracy for different populations.
+* Individual Fairness: Aims for similar individuals to receive similar treatment, regardless of group membership.
+* False Positive/Negative Rate Disparity: Measures whether specific groups are wrongly labeled (e.g., higher false positive rates for certain races in recidivism tools).
+
+# Tools for Calculating Fairness
+* IBM AI Fairness 360: Open-source toolkit with metrics and mitigation algorithms.
+* Google Fairness Indicators: A suite to evaluate TensorFlow models.
+* WhatIf.py/Themis-ML: Python libraries for detecting and auditing model fairness.
+* Jurity: A tool for calculating fairness metrics like Disparate Impact and False Opportunity Rate (FOR)
+
 We specifically analyze how Human-in-The-Loop approach - Human labelling, De-identification and review of data throughout the entire model 
 life-cycle in AI-driven automated systems impacts accuracy and the preservation of human intuition and judgment, 
 which are foundational to quality journalism. The data visualizations, created using Python libraries within a Google Colab notebook, 
