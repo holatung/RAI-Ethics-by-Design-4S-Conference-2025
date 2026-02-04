@@ -13,6 +13,11 @@ The epistemology of AI guardrails were explored through the lens of Human Rights
 * Ethical Debt Metric and
 * Community Alignment and Inclusivity Factor (CAIF)
 
+# Key Components and Interpretation
+* Purpose: To detect and mitigate biases that may cause discriminatory outcomes, enhancing trust and ensuring regulatory compliance.
+* Scores/Thresholds: While there is no single universal formula, a common industry practice is to target scores above 80% (indicating minimal bias), while scores below 60% are considered high-risk.
+* Interpretation: High scores reflect equitable outcomes; low scores suggest systemic biases.
+* The 80% Rule: Many models use the "4/5ths" or "80%" rule (disparate impact) to compare the positive outcome rates of different groups
 
 We specifically analyze how Human-in-The-Loop approach - Human labelling, De-identification and review of data throughout the entire model 
 life-cycle in AI-driven automated systems impacts accuracy and the preservation of human intuition and judgment, 
